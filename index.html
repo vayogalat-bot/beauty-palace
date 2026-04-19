@@ -423,37 +423,6 @@
     .hours-table td:first-child { color: var(--soft-gray); }
     .hours-table td:last-child { text-align: right; color: var(--charcoal); font-weight: 400; }
 
-    .map-placeholder {
-      margin-top: 2rem;
-      height: 250px;
-      background: url('https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80') center/cover;
-      position: relative;
-      display: flex; align-items: center; justify-content: center;
-      text-decoration: none;
-      overflow: hidden;
-    }
-    
-    .map-placeholder::after {
-      content: '';
-      position: absolute; inset: 0;
-      background: rgba(42,35,32,0.6);
-      transition: background 0.3s;
-    }
-
-    .map-placeholder:hover::after { background: rgba(42,35,32,0.4); }
-
-    .map-text {
-      position: relative; z-index: 2;
-      font-family: var(--ff-body);
-      font-size: 0.8rem;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color: #fff;
-      border: 1px solid rgba(255,255,255,0.5);
-      padding: 0.75rem 1.5rem;
-      backdrop-filter: blur(4px);
-    }
-
     #cta {
       padding: 6rem 3.5rem;
       background: var(--rose);
@@ -567,7 +536,7 @@
       </div>
 
       <div class="hero-visual reveal">
-        <img src="images/hero.jpg" alt="Salon Aesthetic" loading="lazy" />
+        <img src="hero.jpg" alt="Salon Aesthetic" loading="lazy" />
       </div>
     </div>
   </section>
@@ -576,14 +545,14 @@
     <div class="section-inner">
       <div class="about-grid">
         <div class="about-visual reveal">
-          <img src="images/about.jpg" alt="Inside the salon" loading="lazy" />
+          <img src="about.jpg" alt="Inside the salon" loading="lazy" />
         </div>
 
         <div class="about-body reveal">
           <span class="section-label">Our story</span>
           <h2 class="section-heading">A salon built on <em>care & craft</em></h2>
           <p>The Beauty Palace is a beloved hair and nail salon nestled in the heart of San Pawl il-Baħar. We've built our reputation on one thing: making every client feel truly looked after.</p>
-          <p>From precision haircuts and gorgeous colour to flawless manicures and French nail art, our talented team — including our much-loved nail specialist Monique — brings expertise and heart to every appointment.</p>
+          <p>From precision haircuts and gorgeous colour to flawless manicures and French nail art, our talented team brings expertise and heart to every appointment.</p>
           <p>Whether you're a regular or walking in for the first time, you'll find a clean, welcoming space where professionalism meets warmth.</p>
 
           <div class="about-stats">
@@ -610,7 +579,7 @@
 
     <div class="services-grid">
       <div class="service-card reveal">
-        <div class="service-image"><img src="images/service-haircut.jpg" alt="Haircuts" loading="lazy" /></div>
+        <div class="service-image"><img src="service-haircut.jpg" alt="Haircuts" loading="lazy" /></div>
         <div class="service-content">
           <h3 class="service-name">Haircuts</h3>
           <p class="service-desc">Precision cuts for all hair types — women's, men's, and children's. Tailored perfectly to your face shape and lifestyle.</p>
@@ -618,7 +587,7 @@
       </div>
 
       <div class="service-card reveal">
-        <div class="service-image"><img src="images/service-color.jpg" alt="Colour & Highlights" loading="lazy" /></div>
+        <div class="service-image"><img src="service-color.jpg" alt="Colour & Highlights" loading="lazy" /></div>
         <div class="service-content">
           <h3 class="service-name">Colour & Highlights</h3>
           <p class="service-desc">Full colour, balayage, highlights and toning — expertly applied for vibrant, luminous, and long-lasting results.</p>
@@ -626,15 +595,15 @@
       </div>
 
       <div class="service-card reveal">
-        <div class="service-image"><img src="images/service-nails.jpg" alt="Manicures & Nails" loading="lazy" /></div>
+        <div class="service-image"><img src="service-nails.jpg" alt="Manicures & Nails" loading="lazy" /></div>
         <div class="service-content">
           <h3 class="service-name">Manicures & Nails</h3>
-          <p class="service-desc">Classic manicures, French tips, gel infills, and intricate nail art. Handled beautifully by our nail expert Monique.</p>
+          <p class="service-desc">Classic manicures, French tips, gel infills, and intricate nail art. Handled beautifully by our talented nail experts.</p>
         </div>
       </div>
 
       <div class="service-card reveal">
-        <div class="service-image"><img src="images/service-bridal.jpg" alt="Bridal Styling" loading="lazy" /></div>
+        <div class="service-image"><img src="service-bridal.jpg" alt="Bridal Styling" loading="lazy" /></div>
         <div class="service-content">
           <h3 class="service-name">Bridal & Events</h3>
           <p class="service-desc">Looking perfect for your big day or special event. We offer bespoke hair and nail packages to make you feel extraordinary.</p>
@@ -655,18 +624,18 @@
         <div class="rating-big">4.9</div>
         <div class="rating-breakdown">
           <span class="stars">★★★★★</span>
-          <p>Based on 37+ Google reviews</p>
+          <p>Based on Google reviews</p>
         </div>
       </div>
 
       <div class="reviews-grid">
         <div class="review-card reveal">
           <div class="review-stars">★★★★★</div>
-          <p class="review-text">"Had my nails done by Monique. She not only fitted me in at short notice but did a fantastic job. Now started having my hair washed and blow dried weekly. So happy with this salon."</p>
+          <p class="review-text">"Had my nails done here at short notice and they did a fantastic job. Now I've started having my hair done weekly. So happy with this salon."</p>
           <div class="reviewer">
             <div class="reviewer-avatar">SS</div>
             <div>
-              <div class="reviewer-name">Samantha Seddon</div>
+              <div class="reviewer-name">Samantha S.</div>
               <div class="reviewer-meta">Local Guide</div>
             </div>
           </div>
@@ -674,11 +643,11 @@
 
         <div class="review-card reveal">
           <div class="review-stars">★★★★★</div>
-          <p class="review-text">"Great space with several services — the entire team is always super punctual and efficient. Highly recommend visiting! The atmosphere is incredibly relaxing."</p>
+          <p class="review-text">"Great space with several services — the entire team is always super punctual and efficient. Highly recommend visiting!"</p>
           <div class="reviewer">
             <div class="reviewer-avatar">PE</div>
             <div>
-              <div class="reviewer-name">Paula E</div>
+              <div class="reviewer-name">Paula E.</div>
               <div class="reviewer-meta">Local Guide</div>
             </div>
           </div>
@@ -686,7 +655,7 @@
 
         <div class="review-card reveal">
           <div class="review-stars">★★★★★</div>
-          <p class="review-text">"Absolutely love coming here. The salon is spotless, the team is welcoming and my hair always looks amazing when I leave. My absolute go-to in St Paul's Bay!"</p>
+          <p class="review-text">"Absolutely love coming here. The salon is spotless, the team is welcoming and my hair always looks amazing when I leave."</p>
           <div class="reviewer">
             <div class="reviewer-avatar">MR</div>
             <div>
@@ -718,10 +687,6 @@
               <div class="contact-detail-value"><a href="https://wa.me/35679210447" target="_blank">+356 7921 0447</a></div>
             </div>
           </div>
-
-          <a class="map-placeholder" href="https://maps.google.com/?q=The+Beauty+Palace+Triq+Manwel+Bonnici+San+Pawl+il-Bahar" target="_blank">
-            <span class="map-text">Open in Google Maps</span>
-          </a>
         </div>
 
         <div class="reveal">
@@ -733,9 +698,6 @@
               <tr><td>Sunday</td><td>Closed</td></tr>
             </tbody>
           </table>
-          <p style="font-size:0.85rem; color:var(--soft-gray); margin-top:2rem; line-height:1.6;">
-            * Hours are approximate. Email ahead or walk in — we'll always do our best to fit you in and accommodate your schedule.
-          </p>
           <a href="https://wa.me/35679210447" target="_blank" class="btn-primary" style="display:inline-block; margin-top: 2rem;">Message to Book</a>
         </div>
       </div>
